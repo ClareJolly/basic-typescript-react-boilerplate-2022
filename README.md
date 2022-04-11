@@ -41,9 +41,11 @@ Basic React with typescript setup with webpack and babel
 - react — main react library
 - react-dom — allows us to use react in the browser
 
-```
-yarn add react react-dom
-```
+`yarn add react react-dom`
+
+add the types
+
+`yarn add -D @types/react @types/react-dom`
 
 ---
 
@@ -60,9 +62,7 @@ yarn add react react-dom
 - webpack-dev-server - allows us to run the site on localhost
 - html-webpack-plugin - adds the bundled js file into the html
 
-```
-yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin
-```
+`yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin`
 
 ---
 
@@ -89,9 +89,7 @@ webpack is a JavaScript code bundler that traverses the dependency graph of your
 - @babel/plugin-transform-regenerator
 - @babel/plugin-transform-runtime
 
-```
-yarn add -D @babel/core @babel/preset-env @babel/preset-react babel-loader style-loader css-loader ts-loader @babel/plugin-transform-regenerator @babel/plugin-transform-runtime
-```
+`yarn add -D @babel/core @babel/preset-env @babel/preset-react babel-loader style-loader css-loader ts-loader @babel/plugin-transform-regenerator @babel/plugin-transform-runtime`
 
 ---
 
@@ -100,7 +98,7 @@ yarn add -D @babel/core @babel/preset-env @babel/preset-react babel-loader style
 ```
 yarn add react react-dom
 
-yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin @babel/core @babel/preset-env @babel/preset-react babel-loader style-loader css-loader typescript ts-loader @babel/plugin-transform-regenerator @babel/plugin-transform-runtime
+yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin @babel/core @babel/preset-env @babel/preset-react babel-loader style-loader css-loader typescript ts-loader @babel/plugin-transform-regenerator @babel/plugin-transform-runtime @types/react @types/react-dom
 ```
 
 ---
