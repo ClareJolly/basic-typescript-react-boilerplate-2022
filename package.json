@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "./src/index.tsx",
   "repository": "git@github.com:ClareJolly/basic-typescript-react-boilerplate-2022.git",
-  "author": "Clare Jolly <clare.jolly@vodafone.com>",
+  "author": "Clare Jolly",
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
